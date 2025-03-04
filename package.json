@@ -1,0 +1,29 @@
+{
+  "name": "esp32_audio",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.1",
+    "@google-cloud/text-to-speech": "^5.8.1",
+    "@serialport/parser-readline": "^13.0.0",
+    "axios": "^1.8.1",
+    "bindings": "^1.5.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "lru-cache": "^11.0.2",
+    "nodemon": "^3.1.9",
+    "openai": "^4.86.1",
+    "play-sound": "^1.1.6",
+    "say": "^0.16.0",
+    "serialport": "^13.0.0",
+    "wav": "^1.0.2",
+    "ws": "^8.18.1"
+  }
+}
